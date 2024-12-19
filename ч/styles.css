@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+#indexForm{
+    width: 340px; height: 300px;
+    margin: 50px auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+a{
+    display: block;
+    width: 200px;
+    padding: 20px 40px;
+    background-color: #333b80;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    transition-duration: 0.5s;
+    cursor: not-allowed;
+}
+a:hover{
+    border-radius: 10px;
+    background-color: #202661;
+}
+.notABtn, .ABtn{
+    width: 340px; height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    color: #333b80;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+.notABtn{
+    background-color: #E6E7F0;
+}
+.ABtn{
+    background-color: #C3C6E4;
+    cursor: pointer;
+}
+.notABtn:focus{
+    background-color: #C3C6E4;
+    border-radius: 10px;
+}
+.ABtn:hover{
+    background-color: #A8ADDA;
+}
+.ABtn:active{
+    border-radius: 10px;
+}
+input{outline: none;}
+input::placeholder{
+    color: #8f95d1;
+}
+.partner{
+    width: 625px; height: 145px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+}
+.partnerLeft{
+    width: 300px;
+    height: 100px;
+}
