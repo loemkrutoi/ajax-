@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        form{
+            width: 250px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        input{
+            width: 250px; height: 30px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        table{
+            width: 500px;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid black;
+        }
+        tr,td{
+            text-align: center;
+            border: 1px solid black;
+        }
+        .modalWin{
+            width: 350px; height: 80px;
+            margin: auto;
+            text-align: center;
+            background-color: red;
+            padding: 50px;
+        }
+        .exists{
+            width: 350px; height: 80px;
+            margin: auto;
+            text-align: center;
+            background-color: green;
+            padding: 50px;
+        }
+        .hidden{
+            display: none;
+            background-color: blue;
+        }
+        .normal{
+            display: block;
+        }
+    </style>
+    <form action="" method="POST">
+        <input type="text" name="login" id="login" placeholder="Придумайте логин" required>
+        <input type="text" name="email" id="email" placeholder="Введите почту" required>
+        <input type="number" name="theatre" id="theatre" placeholder="Номер театра" required>
+    </form>
+    <div></div>
+    <script src="script.js"></script>
+</body>
+</html>
